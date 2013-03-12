@@ -1,0 +1,90 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="horizontal|none" >
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="220dp"
+        android:layout_height="220dp" >
+
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_table_controller" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_clock" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_rear_camera" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="220dp"
+        android:layout_height="220dp" >
+
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_battery_range" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+        <include
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical"
+            layout="@layout/activity_speed" />
+
+    </TableRow>
+</TableLayout>
+</HorizontalScrollView>
+

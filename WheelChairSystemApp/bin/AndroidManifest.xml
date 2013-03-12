@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.almars.wheelchairsystemapp"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.almars.wheelchairsystemapp.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.almars.wheelchairsystemapp.TableController"
+            android:label="@string/title_activity_table_controller"
+            android:parentActivityName="com.almars.wheelchairsystemapp"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.almars.wheelchairsystemapp" />
+        </activity>
+        <activity
+            android:name="com.almars.wheelchairsystemapp.Speed"
+            android:label="@string/title_activity_speed"
+            android:parentActivityName="com.almars.wheelchairsystemapp"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.almars.wheelchairsystemapp" />
+        </activity>
+        <activity
+            android:name="com.almars.wheelchairsystemapp.BatteryRange"
+            android:label="@string/title_activity_battery_range" >
+        </activity>
+        <activity
+            android:name="com.almars.wheelchairsystemapp.Clock"
+            android:label="@string/title_activity_clock" >
+        </activity>
+        <activity
+            android:name="com.almars.wheelchairsystemapp.RearCamera"
+            android:label="@string/title_activity_rear_camera" >
+        </activity>
+    </application>
+
+</manifest>

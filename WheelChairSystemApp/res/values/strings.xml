@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheelChairSystemApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tableonoff">TODO</string>
+    <string name="title_activity_table_controller">TableController</string>
+    <string name="title_activity_speed">Speed</string>
+    <string name="title_activity_scroll_pager">ScrollPager</string>
+    <string name="title_activity_battery_range">BatteryRange</string>
+    <string name="title_activity_clock">Clock</string>
+    <string name="title_activity_rear_camera">RearCamera</string>
+    <string name="rearViewCamera">Rear Camera</string>
+    <string name="todo">TODO</string>
+
+</resources>
